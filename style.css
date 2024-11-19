@@ -1,0 +1,24 @@
+html {
+  background: orange;
+}
+
+body {
+  padding: 50px 200px 100px 100px;
+  background: white;
+  width: 600px;
+  margin: auto;
+  margin-top: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+img {
+  height: 300px;
+  padding: 10px;
+  border: rgb(233, 210, 82) solid 4px;
+}
+
+button {
+  padding: 10px 12px;
+  background: rgb(209, 189, 151);
+}

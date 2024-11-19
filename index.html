@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Trapezoid</title>
+  </head>
+  <body>
+    <h1>Area of a Trapezoid Calculator</h1>
+    <img src="Images/Area-of-a-Trapezoid.png" alt="Area-of-a-Trapezoid" />
+    <h2>Area Calculate</h2>
+
+    <p>Length of Top Base (a): <input id="aInp" type="number" /></p>
+    <p>Length of Bottom Base (b): <input id="bInp" type="number" /></p>
+    <p>Height of Trapezoid (h): <input id="hInp" type="number" /></p>
+
+    <label for="unit">Unit</label>
+    <select name="unit" id="areaUnit">
+      <option value="mm">mm</option>
+      <option value="cm">cm</option>
+      <option value="m">m</option>
+      <option value="km">km</option>
+    </select>
+
+    <p><button id="btn">Calculate</button></p>
+
+    <h2>Output</h2>
+
+    <p>The area of the Trapezoid is <span id="output">-----</span>.</p>
+  </body>
+</html>
