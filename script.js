@@ -27,6 +27,8 @@ function calculate() {
   //OUTPUT
   outputEL.innerHTML = output + `<img width="50px" height="50px" src="Images/checkmark.png">`;
 
+  outputEL.style.border = "2px solid green";
+
   //CLEAR INPUTS
   a.value = " ";
   b.value = " ";
