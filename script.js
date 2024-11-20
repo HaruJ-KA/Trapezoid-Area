@@ -25,7 +25,7 @@ function calculate() {
   let output = area + unit;
 
   //OUTPUT
-  outputEL.innerHTML = output;
+  outputEL.innerHTML = output + `<img width="50px" height="50px" src="Images/checkmark.png">`;
 
   //CLEAR INPUTS
   a.value = " ";
